@@ -31,6 +31,7 @@ image source : https://towardsdatascience.com/applied-deep-learning-part-4-convo
 The filters/kernels can be considered analogous to the neurons from a normal network. These filters/kernels are the weights that are updated or in other words this is where the learning happens in a CNN. The filters/kernals are smaller matrices which slides through an image from top left top bottom right spanning the whole image while calculating the dot product of the values and storing them in the output feature map. I am sure that made no sense to you, So just see the GIF below and it would speak those 1000 words that I am trying to convey.
 
 ![](images/cnn.gif)
+
 image source : https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-networks-584bc134c1e2
 
 Let me try again now that you have looked at the GIF.
@@ -55,6 +56,7 @@ It is important also to note that the contribution from the corners of the image
 Stride is the parameter that defines how the filters move around the image and span its height and width, it basically is the number of pixels at a time a filter would move. Below is an example of a stride of 1.
 
 ![](images/stride_1.gif)
+
 image source : https://medium.freecodecamp.org/an-intuitive-guide-to-convolutional-neural-networks-260c2de0a050
 
 ### Pooling
@@ -62,6 +64,7 @@ image source : https://medium.freecodecamp.org/an-intuitive-guide-to-convolution
 Consider a filter/kernel that moves around the feature volume and takes takes the average of the considered volume or the maximum value from its current slice. Imagine a 2x2 kernel that moves through the image/feature output, this kernel will approximate the considered 2x2 area of 4 pixels with the maximum value of the 4 pixels. Yet again, I think the below picture would convey the concept more than my words.
 
 ![](images/maxpooling.png)
+
 image source : http://cs231n.github.io/convolutional-networks/
 
 note: Even though we use kernels to do pooling, the pooling layer offers no learning. It is just used as a dimensionality reduction tool which also brings in a useful property of introducing spatial invariance into our learning process.
