@@ -77,8 +77,9 @@ To summarize, the important parameters to know regarding a CNN are :
   4. Maxpooling kernel size
   
   
-Below is an image which shows all the concepts that are discussed above. 
+Below is an image which shows all the concepts that are discussed above. This should help you understand the complete flow through a CNN network.
 ![](images/full_cnn.gif)
+
 image source : http://cs231n.github.io/convolutional-networks/
 
 
