@@ -83,4 +83,8 @@ Below is an image which shows all the concepts that are discussed above. This sh
 image source : http://cs231n.github.io/convolutional-networks/
 
 
+All talk but no code makes this repo a boring one, so why not dive into some fun implementations of CNN filters and what they can visualize or capture from a given image :
+
+  * ![CNN Filter visualizations](https://iamanemic.github.io/cnn_filter_visualization/)
+
 
